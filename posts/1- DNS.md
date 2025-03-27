@@ -49,5 +49,7 @@ Root serverları internetin DNS backbone'ununu oluşturur yani bir nevi DNS'leri
 
 Authoritative serverlar ilgili domain name ile ilgili kayıtları tutan ve bu kayıtlarla ilgili yapılacak herhangi bir güncellemenin yer alacağı yerlerdir. Kaydın türüne bağlı olarak, DNS kaydı recursive DNS serverına geri gönderilir ve burada gelecekte aynı domain name'e yapılabilecek bir istek için kopyası alınarak önbellekte depolanır. Daha sonrasında ise tekrardan kaynak istemciye gönderilir. Tüm DNS Record'ları bir TTL'e (time to live) sahiptir. Bu süre içerisinde istek yapılırsa, bu istek recursive serverdan öteye gitmeden direk yanıtlanabilir. Eğer bu süre içerisinde bir istek yapılmazsa, kayıt önbellekten silinmiş olacağından süreç tekrardan yukarıda belirtildiği haliyle işler.
 
+![Images](images/dns_record_request_sequence_cname_subdomain.png)
+
 
 
