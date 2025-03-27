@@ -96,7 +96,7 @@ Content-Type header'ı, clienta HTML, resim, video, pdf veya XML gibi ne tür bi
 
 ## Line 5
 
-Content-Lenght, clienta yanıtın ne kadar uzun olduğunu söyler ve böylece hiçbir verinin eksik olmadığı doğrulanabilir.
+Content-Lenght header'ı, clienta yanıtın ne kadar uzun olduğunu söyler ve böylece hiçbir verinin eksik olmadığı doğrulanabilir.
 
 ## Line 6
 
