@@ -4,7 +4,7 @@
 ## gTLD (Generic Top Level Domain)
 Belirli amaçlar için ayrılmış top level domainlere denir. Örneğin. .org -> organization, .com -> commercial
 
-## ccTLD (Country COde Top Level Domain)
+## ccTLD (Country Code Top Level Domain)
 
 Ülke kodlarına göre .tr, .uk, .us şeklindedir.
 
